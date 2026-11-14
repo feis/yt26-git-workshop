@@ -12,4 +12,5 @@ namespace Workshop.GitDemo
         public float speed = 4f;
         public Color color = Color.gray;
     }
+    // 2026-11-13：波次行列拆成 Rows/ 一個檔案一筆，這裡只留共用的欄位。
 }

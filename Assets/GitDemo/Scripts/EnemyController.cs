@@ -13,4 +13,5 @@ namespace Workshop.GitDemo
             transform.Translate(Vector3.forward * data.speed * Time.deltaTime);
         }
     }
+    // 2026-11-13：讀 Rows/ 的行列；改這檔時要跟 EnemyData 的欄位一起對。
 }
