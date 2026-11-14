@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08af3295907d92d255d50db57eeeb268, type: 3}
   m_Name: Enemy
   m_EditorClassIdentifier: Assembly-CSharp::Workshop.GitDemo.EnemyData
-  displayName: "\u654C\u4EBA"
+  displayName: "\u7CBE\u9748\u5C04\u624B"
   maxHp: 30
   speed: 40
   color: {r: 0.35, g: 0.75, b: 0.35, a: 1}
