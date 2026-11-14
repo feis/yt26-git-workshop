@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Workshop.GitDemo.EnemyData
   displayName: "\u654C\u4EBA"
   maxHp: 30
-  speed: 4
+  speed: 40
   color: {r: 0.35, g: 0.75, b: 0.35, a: 1}
