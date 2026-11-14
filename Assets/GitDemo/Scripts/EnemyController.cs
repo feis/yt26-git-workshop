@@ -6,12 +6,20 @@ namespace Workshop.GitDemo
     public class EnemyController : MonoBehaviour
     {
         public EnemyData data;
+        // 傷害做在開關上：開關在 DamageConfig 這份資料裡，預設關著。
+        public DamageConfig damage;
 
         void Update()
         {
             if (data == null) return;
             transform.Translate(Vector3.forward * data.speed * Time.deltaTime);
+
+            if (damage != null && damage.damageEnabled) ApplyDamage();
+        }
+
+        void ApplyDamage()
+        {
+            Debug.Log($"{name} 造成 {damage.damageAmount} 點傷害");
         }
     }
-    // 2026-11-13：讀 Rows/ 的行列；改這檔時要跟 EnemyData 的欄位一起對。
 }
