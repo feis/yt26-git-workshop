@@ -6,20 +6,19 @@ namespace Workshop.GitDemo
     public class EnemyController : MonoBehaviour
     {
         public EnemyData data;
-        // 傷害做在開關上：開關在 DamageConfig 這份資料裡，預設關著。
-        public DamageConfig damage;
 
         void Update()
         {
             if (data == null) return;
             transform.Translate(Vector3.forward * data.speed * Time.deltaTime);
 
-            if (damage != null && damage.damageEnabled) ApplyDamage();
+            // 傷害直接寫進行為，沒有開關。
+            ApplyDamage();
         }
 
         void ApplyDamage()
         {
-            Debug.Log($"{name} 造成 {damage.damageAmount} 點傷害");
+            Debug.Log($"{name} 造成 5 點傷害");
         }
     }
 }
