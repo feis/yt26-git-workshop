@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Rules
   m_EditorClassIdentifier: Assembly-CSharp::Workshop.GitDemo.RulesData
   startingLives: 3
-  timeLimit: 90
+  timeLimit: 120
