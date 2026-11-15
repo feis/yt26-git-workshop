@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7cd4b9e7e8177a5e20572be84f4f5d9f, type: 3}
   m_Name: Wave
   m_EditorClassIdentifier: Assembly-CSharp::Workshop.GitDemo.WaveData
-  enemyCount: 8
+  enemyCount: 14
   spawnDelay: 1.2
