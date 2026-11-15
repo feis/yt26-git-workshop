@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: DropTable
   m_EditorClassIdentifier: Assembly-CSharp::Workshop.GitDemo.DropData
   itemName: "\u88DC\u8840"
-  dropChance: 0.25
+  dropChance: 5
